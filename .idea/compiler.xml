@@ -9,5 +9,8 @@
         <module name="Authentication.UI" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Database.connection" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
