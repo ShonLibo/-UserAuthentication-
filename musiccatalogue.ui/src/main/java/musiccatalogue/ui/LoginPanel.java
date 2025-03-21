@@ -1,9 +1,6 @@
-package user.ui;
-
 package musiccatalogue.ui;
 
-import musiccatalogue.UserAuthApp;
-import musiccatalogue.db.UserRepository;
+import musiccatalogue.database.UserRepository;
 
 import javax.swing.*;
 import java.awt.*;
