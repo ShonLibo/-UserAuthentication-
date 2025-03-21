@@ -134,9 +134,19 @@ public class RegisterPanel extends JPanel {
 
                 try {
                     UserRepository userRepo = new UserRepository();
+                    if (userRepo.isEmailRegistered(email)) {
+                        JOptionPane.showMessageDialog(RegisterPanel.this, "Email already registered", "Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
+
                     userRepo.registerUser(name, tel, email, password);
+
+                    // Pass user data to DashboardPanel
+                    DashboardPanel dashboardPanel = (DashboardPanel) app.getPanel("DASHBOARD");
+                    dashboardPanel.setUserInfo(name, tel, email);
+
                     JOptionPane.showMessageDialog(RegisterPanel.this, "Registration successful", "Success", JOptionPane.INFORMATION_MESSAGE);
-                    app.showPanel("LOGIN");
+                    app.showPanel("DASHBOARD");
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }

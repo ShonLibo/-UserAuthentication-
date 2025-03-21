@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LoginPanel extends JPanel {
@@ -81,7 +82,17 @@ public class LoginPanel extends JPanel {
 
                 try {
                     UserRepository userRepo = new UserRepository();
-                    if (userRepo.validateUser(email, password)) {
+                    ResultSet rs = userRepo.getUserByEmailAndPassword(email, password);
+                    if (rs.next()) {
+                        String name = rs.getString("name");
+                        String tel = rs.getString("tel");
+                        String userEmail = rs.getString("email");
+
+                        // Pass user data to DashboardPanel
+                        DashboardPanel dashboardPanel = (DashboardPanel) app.getPanel("DASHBOARD");
+                        dashboardPanel.setUserInfo(name, tel, userEmail);
+
+                        // Switch to Dashboard Panel
                         app.showPanel("DASHBOARD");
                     } else {
                         JOptionPane.showMessageDialog(LoginPanel.this, "Invalid email or password", "Error", JOptionPane.ERROR_MESSAGE);

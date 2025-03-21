@@ -17,10 +17,20 @@ public class UserAuthApp extends JFrame {
         cardLayout = new CardLayout();
         cardPanel.setLayout(cardLayout);
 
-        // Add panels
-        cardPanel.add(new LoginPanel(this), "LOGIN");
-        cardPanel.add(new RegisterPanel(this), "REGISTER");
-        cardPanel.add(new DashboardPanel(this), "DASHBOARD");
+        // Create panels and set their names
+        LoginPanel loginPanel = new LoginPanel(this);
+        loginPanel.setName("LOGIN"); // Set name for LoginPanel
+
+        RegisterPanel registerPanel = new RegisterPanel(this);
+        registerPanel.setName("REGISTER"); // Set name for RegisterPanel
+
+        DashboardPanel dashboardPanel = new DashboardPanel(this);
+        dashboardPanel.setName("DASHBOARD"); // Set name for DashboardPanel
+
+        // Add panels to CardLayout
+        cardPanel.add(loginPanel, "LOGIN");
+        cardPanel.add(registerPanel, "REGISTER");
+        cardPanel.add(dashboardPanel, "DASHBOARD");
 
         add(cardPanel);
         cardLayout.show(cardPanel, "LOGIN");
@@ -28,6 +38,15 @@ public class UserAuthApp extends JFrame {
 
     public void showPanel(String panelName) {
         cardLayout.show(cardPanel, panelName);
+    }
+
+    public JPanel getPanel(String panelName) {
+        for (Component comp : cardPanel.getComponents()) {
+            if (comp instanceof JPanel && comp.getName() != null && comp.getName().equals(panelName)) {
+                return (JPanel) comp;
+            }
+        }
+        return null;
     }
 
     public static void main(String[] args) {

@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="musiccatalogue.database" />
+        <module name="musiccatalogue.ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="database.connection" target="23" />
       <module name="Database.connection" target="23" />
-      <module name="musiccatalogue.ui" target="23" />
       <module name="ui" target="23" />
     </bytecodeTargetLevel>
   </component>
