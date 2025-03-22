@@ -9,7 +9,14 @@
         <option value="$PROJECT_DIR$/database.connection/pom.xml" />
         <option value="$PROJECT_DIR$/musiccatalogue.database/pom.xml" />
         <option value="$PROJECT_DIR$/musiccatalogue.ui/pom.xml" />
+        <option value="$PROJECT_DIR$/UserAuthentication/authentication.ui/pom.xml" />
+        <option value="$PROJECT_DIR$/UserAuthentication/authentication.database/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/UserAuthentication/authentication.database/authentication.ui/authentication.database/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">

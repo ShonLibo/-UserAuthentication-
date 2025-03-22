@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="musiccatalogue.ui" />
-        <module name="authentication.database" />
+        <module name="authentication.ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authentication.database" target="23" />
       <module name="database.connection" target="23" />
       <module name="Database.connection" target="23" />
       <module name="ui" target="23" />
+      <module name="UserAuthentcation" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
