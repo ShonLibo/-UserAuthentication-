@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/musiccatalogue.ui/pom.xml" />
         <option value="$PROJECT_DIR$/UserAuthentication/authentication.ui/pom.xml" />
         <option value="$PROJECT_DIR$/UserAuthentication/authentication.database/pom.xml" />
+        <option value="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
