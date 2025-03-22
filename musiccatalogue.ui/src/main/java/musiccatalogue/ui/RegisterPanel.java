@@ -10,6 +10,8 @@ import java.sql.SQLException;
 
 public class RegisterPanel extends JPanel {
     private UserAuthApp app;
+    private JTextField nameField, telField, emailField;
+    private JPasswordField passwordField, confirmPasswordField;
 
     public RegisterPanel(UserAuthApp app) {
         this.app = app;
@@ -37,7 +39,7 @@ public class RegisterPanel extends JPanel {
         gbc.gridwidth = 1;
         add(nameLabel, gbc);
 
-        JTextField nameField = new JTextField(20);
+        nameField = new JTextField(20);
         nameField.setFont(new Font("Arial", Font.PLAIN, 14));
         nameField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -52,7 +54,7 @@ public class RegisterPanel extends JPanel {
         gbc.gridy = 2;
         add(telLabel, gbc);
 
-        JTextField telField = new JTextField(20);
+        telField = new JTextField(20);
         telField.setFont(new Font("Arial", Font.PLAIN, 14));
         telField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -67,7 +69,7 @@ public class RegisterPanel extends JPanel {
         gbc.gridy = 3;
         add(emailLabel, gbc);
 
-        JTextField emailField = new JTextField(20);
+        emailField = new JTextField(20);
         emailField.setFont(new Font("Arial", Font.PLAIN, 14));
         emailField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -82,7 +84,7 @@ public class RegisterPanel extends JPanel {
         gbc.gridy = 4;
         add(passwordLabel, gbc);
 
-        JPasswordField passwordField = new JPasswordField(20);
+        passwordField = new JPasswordField(20);
         passwordField.setFont(new Font("Arial", Font.PLAIN, 14));
         passwordField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -97,7 +99,7 @@ public class RegisterPanel extends JPanel {
         gbc.gridy = 5;
         add(confirmPasswordLabel, gbc);
 
-        JPasswordField confirmPasswordField = new JPasswordField(20);
+        confirmPasswordField = new JPasswordField(20);
         confirmPasswordField.setFont(new Font("Arial", Font.PLAIN, 14));
         confirmPasswordField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -141,12 +143,14 @@ public class RegisterPanel extends JPanel {
 
                     userRepo.registerUser(name, tel, email, password);
 
-                    // Pass user data to DashboardPanel
-                    DashboardPanel dashboardPanel = (DashboardPanel) app.getPanel("DASHBOARD");
-                    dashboardPanel.setUserInfo(name, tel, email);
+                    // Clear registration fields
+                    clearFields();
 
+                    // Show success message
                     JOptionPane.showMessageDialog(RegisterPanel.this, "Registration successful", "Success", JOptionPane.INFORMATION_MESSAGE);
-                    app.showPanel("DASHBOARD");
+
+                    // Switch to Login Panel
+                    app.showPanel("LOGIN");
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }
@@ -161,6 +165,16 @@ public class RegisterPanel extends JPanel {
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // Clear registration fields
+                clearFields();
+
+                // Clear login fields
+                LoginPanel loginPanel = (LoginPanel) app.getPanel("LOGIN");
+                if (loginPanel != null) {
+                    loginPanel.clearFields();
+                }
+
+                // Switch to Login Panel
                 app.showPanel("LOGIN");
             }
         });
@@ -172,5 +186,14 @@ public class RegisterPanel extends JPanel {
         gbc.gridy = 6;
         gbc.gridwidth = 2;
         add(buttonPanel, gbc);
+    }
+
+    // Method to clear all registration fields
+    private void clearFields() {
+        nameField.setText("");
+        telField.setText("");
+        emailField.setText("");
+        passwordField.setText("");
+        confirmPasswordField.setText("");
     }
 }

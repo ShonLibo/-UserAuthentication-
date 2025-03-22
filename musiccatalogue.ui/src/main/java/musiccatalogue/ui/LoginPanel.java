@@ -11,6 +11,8 @@ import java.sql.SQLException;
 
 public class LoginPanel extends JPanel {
     private UserAuthApp app;
+    private JTextField emailField;
+    private JPasswordField passwordField;
 
     public LoginPanel(UserAuthApp app) {
         this.app = app;
@@ -38,7 +40,7 @@ public class LoginPanel extends JPanel {
         gbc.gridwidth = 1;
         add(emailLabel, gbc);
 
-        JTextField emailField = new JTextField(20);
+        emailField = new JTextField(20);
         emailField.setFont(new Font("Arial", Font.PLAIN, 14));
         emailField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -53,7 +55,7 @@ public class LoginPanel extends JPanel {
         gbc.gridy = 2;
         add(passwordLabel, gbc);
 
-        JPasswordField passwordField = new JPasswordField(20);
+        passwordField = new JPasswordField(20);
         passwordField.setFont(new Font("Arial", Font.PLAIN, 14));
         passwordField.setBackground(new Color(224, 224, 224));
         gbc.gridx = 1;
@@ -111,6 +113,8 @@ public class LoginPanel extends JPanel {
         signUpButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // Clear login fields before switching to Register Panel
+                clearFields();
                 app.showPanel("REGISTER");
             }
         });
@@ -122,5 +126,11 @@ public class LoginPanel extends JPanel {
         gbc.gridy = 3;
         gbc.gridwidth = 2;
         add(buttonPanel, gbc);
+    }
+
+    // Method to clear login fields
+    public void clearFields() {
+        emailField.setText("");
+        passwordField.setText("");
     }
 }

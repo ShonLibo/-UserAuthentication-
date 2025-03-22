@@ -37,6 +37,13 @@ public class UserAuthApp extends JFrame {
     }
 
     public void showPanel(String panelName) {
+        if (panelName.equals("LOGIN")) {
+            // Clear login fields when switching to Login Panel
+            LoginPanel loginPanel = (LoginPanel) getPanel("LOGIN");
+            if (loginPanel != null) {
+                loginPanel.clearFields();
+            }
+        }
         cardLayout.show(cardPanel, panelName);
     }
 
