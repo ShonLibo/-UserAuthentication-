@@ -15,17 +15,6 @@ public class UserRepository {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
-    public boolean validateUser(String email, String password) throws SQLException {
-        try (Connection conn = getConnection()) {
-            String sql = "SELECT * FROM users WHERE email = ? AND password = ?";
-            PreparedStatement stmt = conn.prepareStatement(sql);
-            stmt.setString(1, email);
-            stmt.setString(2, password);
-            ResultSet rs = stmt.executeQuery();
-            return rs.next();
-        }
-    }
-
     public ResultSet getUserByEmailAndPassword(String email, String password) throws SQLException {
         Connection conn = getConnection();
         String sql = "SELECT * FROM users WHERE email = ? AND password = ?";
