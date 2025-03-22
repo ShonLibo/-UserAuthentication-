@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/LoginPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/RegisterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/RegisterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/src/main/java/musiccatalogue/database/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/src/main/java/authentication/database/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/target/classes/musiccatalogue/database/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/DashboardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/DashboardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/RegisterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/UserAuthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/UserAuthApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/DashboardPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/DashboardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/UserAuthApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +78,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.27019498&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.authentication.ui.UserAuthApp">
     <configuration name="UserAuthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="musiccatalogue.ui.UserAuthApp" />
-      <module name="musiccatalogue.ui" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="musiccatalogue.ui.*" />
@@ -71,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="authentication.ui.UserAuthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.UserAuthApp" />
+      <module name="authentication.ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="authentication.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.authentication.ui.UserAuthApp" />
         <item itemvalue="Application.UserAuthApp" />
       </list>
     </recent_temporary>

@@ -3,9 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Database.connection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Database.connection/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/musiccatalogue.database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authentication.database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authentication.ui/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/musiccatalogue.database/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/musiccatalogue.ui/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/musiccatalogue.ui/src/main/resources" charset="UTF-8" />
   </component>
 </project>
