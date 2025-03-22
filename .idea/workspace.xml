@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/src/main/java/musiccatalogue/database/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.database/src/main/java/authentication/database/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.database/target/classes/musiccatalogue/database/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/DashboardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/DashboardPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/RegisterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/src/main/java/musiccatalogue/ui/UserAuthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/src/main/java/authentication/ui/UserAuthApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.ui/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/DashboardPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/DashboardPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/LoginPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/RegisterPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musiccatalogue.ui/target/classes/musiccatalogue/ui/UserAuthApp.class" beforeDir="false" />
-    </list>
+    <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,18 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.UserAuthApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SamsonNeyo/mysql-connector-java-8.0.18.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.27019498&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UserAuthApp.executor": "Run",
+    "Application.authentication.ui.UserAuthApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SamsonNeyo/mysql-connector-java-8.0.18.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27019498"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.authentication.ui.UserAuthApp">
     <configuration name="UserAuthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="musiccatalogue.ui.UserAuthApp" />
