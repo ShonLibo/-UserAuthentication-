@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/src/main/java/authentication/database/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/DashboardPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/UserAuthApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.database/src/main/java/authentication/database/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.database/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.database/target/classes/authentication/database/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.database/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/src/main/java/authentication/ui/DashboardPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/src/main/java/authentication/ui/UserAuthApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/target/classes/authentication/ui/DashboardPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/target/classes/authentication/ui/LoginPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/target/classes/authentication/ui/RegisterPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/target/classes/authentication/ui/UserAuthApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/authentication.ui/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +29,12 @@
     &quot;assignee&quot;: &quot;SamsonNeyo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ShonLibo/-UserAuthentication-.git&quot;,
-    &quot;accountId&quot;: &quot;0aa178af-251c-44bd-a18d-a51bcea63faf&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ShonLibo/-UserAuthentication-.git",
+    "accountId": "9c1ce30f-9ff8-4e1d-8182-b2d6b8b084f7"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -79,10 +50,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SamsonNeyo/JTattoo-1.6.13.jar",
+    "last_opened_file_path": "C:/Users/natip/mysql-connector-java-8.0.18.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27019498"
+    "project.structure.side.proportion": "0.27019498",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
