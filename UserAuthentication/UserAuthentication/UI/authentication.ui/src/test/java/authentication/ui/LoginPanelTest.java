@@ -36,7 +36,7 @@ class LoginPanelTest {
         signUpButton.doClick();
 
         // Verify if the current panel is REGISTER
-        assertInstanceOf(RegisterPanel.class, app.getPanel("REGISTER"));  // Assuming "RegisterPanel" is the class for the register screen
+        assertInstanceOf(RegisterPanel.class, app.getPanel());  // Assuming "RegisterPanel" is the class for the register screen
     }
 
     @Test
