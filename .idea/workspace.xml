@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/src/test/java/authentication/database/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/src/main/java/authentication/database/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/src/main/java/authentication/database/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/target/classes/authentication/database/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/target/classes/authentication/database/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.database/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/test/java/authentication/ui/DashboardPanelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +72,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="authentication.ui" />
       <recent name="authentication.database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest">
+  <component name="RunManager" selected="JUnit.DashboardPanelTest">
     <configuration name="UserAuthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="authentication.ui.UserAuthApp" />
       <module name="authentication.ui" />
@@ -97,6 +86,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardPanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authentication.ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="authentication.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="authentication.ui" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.DashboardPanelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DashboardPanelTest" />
         <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="JUnit.UserRepositoryTest.isEmailRegistered_ShouldReturnCorrectBoolean" />
         <item itemvalue="JUnit.UserRepositoryTest.getConnection_ShouldNotBeNull" />
