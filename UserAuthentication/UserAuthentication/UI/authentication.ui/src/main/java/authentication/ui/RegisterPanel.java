@@ -10,8 +10,11 @@ import java.sql.SQLException;
 
 public class RegisterPanel extends JPanel {
     private UserAuthApp app;
-    private JTextField nameField, telField, emailField;
-    private JPasswordField passwordField, confirmPasswordField;
+    JTextField nameField;
+    JTextField telField;
+    JTextField emailField;
+    JPasswordField passwordField;
+    JPasswordField confirmPasswordField;
 
     public RegisterPanel(UserAuthApp app) {
         this.app = app;
@@ -189,7 +192,7 @@ public class RegisterPanel extends JPanel {
     }
 
     // Method to clear all registration fields
-    private void clearFields() {
+    void clearFields() {
         nameField.setText("");
         telField.setText("");
         emailField.setText("");

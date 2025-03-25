@@ -10,9 +10,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LoginPanel extends JPanel {
-    private UserAuthApp app;
-    private JTextField emailField;
-    private JPasswordField passwordField;
+    UserAuthApp app;
+    JTextField emailField;
+    JPasswordField passwordField;
 
     public LoginPanel(UserAuthApp app) {
         this.app = app;

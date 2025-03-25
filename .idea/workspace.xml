@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e07d4f7-6458-49a0-bad9-9633e7dbeb9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/test/java/authentication/ui/DashboardPanelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/test/java/authentication/ui/LoginPanelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/test/java/authentication/ui/RegisterPanelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/LoginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/LoginPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/target/classes/authentication/ui/RegisterPanel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,9 @@
     "accountId": "480ba9e0-468e-41b9-b661-bf13704b994f"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/main/java/authentication/ui/RegisterPanel.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -48,6 +59,12 @@
   "keyToString": {
     "Application.UserAuthApp.executor": "Run",
     "Application.authentication.ui.UserAuthApp.executor": "Run",
+    "JUnit.DashboardPanelTest.executor": "Run",
+    "JUnit.LoginPanelTest.executor": "Run",
+    "JUnit.LoginPanelTest.testSignInButtonAction.executor": "Run",
+    "JUnit.LoginPanelTest.testSignUpButtonAction.executor": "Run",
+    "JUnit.RegisterPanelTest.executor": "Run",
+    "JUnit.RegisterPanelTest.testSignUpClearsFields.executor": "Run",
     "JUnit.UserRepositoryTest.executor": "Run",
     "JUnit.UserRepositoryTest.getConnection_ShouldNotBeNull.executor": "Run",
     "JUnit.UserRepositoryTest.isEmailRegistered_ShouldReturnCorrectBoolean.executor": "Run",
@@ -61,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27019498",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,21 +93,8 @@
       <recent name="authentication.database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DashboardPanelTest">
-    <configuration name="UserAuthApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="authentication.ui.UserAuthApp" />
-      <module name="authentication.ui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="authentication.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardPanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegisterPanelTest">
+    <configuration name="LoginPanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="authentication.ui" />
       <extension name="coverage">
         <pattern>
@@ -99,54 +103,70 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="authentication.ui" />
-      <option name="MAIN_CLASS_NAME" value="authentication.ui.DashboardPanelTest" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.LoginPanelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="authentication.database" />
+    <configuration name="LoginPanelTest.testSignInButtonAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authentication.ui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="authentication.database.*" />
+          <option name="PATTERN" value="authentication.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="authentication.database" />
-      <option name="MAIN_CLASS_NAME" value="authentication.database.UserRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.getConnection_ShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="authentication.database" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="authentication.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="authentication.database" />
-      <option name="MAIN_CLASS_NAME" value="authentication.database.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="getConnection_ShouldNotBeNull" />
+      <option name="PACKAGE_NAME" value="authentication.ui" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.LoginPanelTest" />
+      <option name="METHOD_NAME" value="testSignInButtonAction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.isEmailRegistered_ShouldReturnCorrectBoolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="authentication.database" />
+    <configuration name="LoginPanelTest.testSignUpButtonAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authentication.ui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="authentication.database.*" />
+          <option name="PATTERN" value="authentication.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="authentication.database" />
-      <option name="MAIN_CLASS_NAME" value="authentication.database.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="isEmailRegistered_ShouldReturnCorrectBoolean" />
+      <option name="PACKAGE_NAME" value="authentication.ui" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.LoginPanelTest" />
+      <option name="METHOD_NAME" value="testSignUpButtonAction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authentication.ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="authentication.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="authentication.ui" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.RegisterPanelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPanelTest.testSignUpClearsFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authentication.ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="authentication.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="authentication.ui" />
+      <option name="MAIN_CLASS_NAME" value="authentication.ui.RegisterPanelTest" />
+      <option name="METHOD_NAME" value="testSignUpClearsFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DashboardPanelTest" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.isEmailRegistered_ShouldReturnCorrectBoolean" />
-        <item itemvalue="JUnit.UserRepositoryTest.getConnection_ShouldNotBeNull" />
-        <item itemvalue="Application.UserAuthApp" />
+        <item itemvalue="JUnit.RegisterPanelTest" />
+        <item itemvalue="JUnit.RegisterPanelTest.testSignUpClearsFields" />
+        <item itemvalue="JUnit.LoginPanelTest.testSignInButtonAction" />
+        <item itemvalue="JUnit.LoginPanelTest.testSignUpButtonAction" />
+        <item itemvalue="JUnit.LoginPanelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,5 +205,16 @@
       <updated>1742594789837</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UserAuthentication/UserAuthentication/UI/authentication.ui/src/test/java/authentication/ui/LoginPanelTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
