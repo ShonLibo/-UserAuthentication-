@@ -17,13 +17,13 @@ public class UserAuthAppTest {
     @Test
     public void testShowLoginPanel() {
         app.showPanel("LOGIN");
-        assertEquals("LOGIN", app.getPanel().getName());
+        assertEquals("LOGIN", app.getPanel("DASHBOARD").getName());
     }
 
     @Test
     void testShowRegisterPanel() {
         app.showPanel("REGISTER");
-        JPanel panel = app.getPanel();
+        JPanel panel = app.getPanel("DASHBOARD");
         assertNotNull(panel, "Register panel should be shown");
     }
 

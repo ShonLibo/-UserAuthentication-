@@ -91,7 +91,7 @@ public class LoginPanel extends JPanel {
                         String userEmail = rs.getString("email");
 
                         // Pass user data to DashboardPanel
-                        DashboardPanel dashboardPanel = (DashboardPanel) app.getPanel();
+                        DashboardPanel dashboardPanel = (DashboardPanel) app.getPanel("DASHBOARD");
                         dashboardPanel.setUserInfo(name, tel, userEmail);
 
                         // Switch to Dashboard Panel

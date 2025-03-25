@@ -172,7 +172,7 @@ public class RegisterPanel extends JPanel {
                 clearFields();
 
                 // Clear login fields
-                LoginPanel loginPanel = (LoginPanel) app.getPanel();
+                LoginPanel loginPanel = (LoginPanel) app.getPanel(TOOL_TIP_TEXT_KEY);
                 if (loginPanel != null) {
                     loginPanel.clearFields();
                 }

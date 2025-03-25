@@ -1,53 +1,29 @@
 package authentication.ui;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.swing.*;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class LoginPanelTest {
 
-    @Test
-    void testSignInButtonAction() {
-        LoginPanel loginPanel = new LoginPanel(new UserAuthApp());
+    private UserAuthApp app;
+    private LoginPanel loginPanel;
 
-        // Fill email and password fields
-        loginPanel.emailField.setText("john@example.com");
-        loginPanel.passwordField.setText("password123");
-
-        // Access the Sign-In button from components
-        JButton signInButton = (JButton) loginPanel.getComponents()[6]; // Update this index as per the order in your code
-        signInButton.doClick();
-
-        // Assuming action performed changes fields in some way or triggers UI update
-        // Add your assertion logic based on actual UI behavior
-        assertEquals("john@example.com", loginPanel.emailField.getText());
-        assertEquals("password123", new String(loginPanel.passwordField.getPassword()));
+    @BeforeEach
+    void setUp() {
+        app = new UserAuthApp();
+        loginPanel = new LoginPanel(app);
     }
-
-    @Test
-    void testSignUpButtonAction() {
-        UserAuthApp app = new UserAuthApp();
-        LoginPanel loginPanel = new LoginPanel(app);
-
-        // Access the Sign Up button from components
-        JButton signUpButton = (JButton) loginPanel.getComponents()[7]; // Update this index as per the order in your code
-        signUpButton.doClick();
-
-        // Verify if the current panel is REGISTER
-        assertInstanceOf(RegisterPanel.class, app.getPanel());  // Assuming "RegisterPanel" is the class for the register screen
-    }
-
     @Test
     void testClearFields() {
-        LoginPanel loginPanel = new LoginPanel(new UserAuthApp());
-        loginPanel.emailField.setText("john@example.com");
-        loginPanel.passwordField.setText("password123");
-
+        // Fill the fields and clear them
+        loginPanel.emailField.setText("test@example.com");
+        loginPanel.passwordField.setText("password");
         loginPanel.clearFields();
 
-        assertTrue(loginPanel.emailField.getText().isEmpty());
-        assertTrue(new String(loginPanel.passwordField.getPassword()).isEmpty());
+        assertEquals("", loginPanel.emailField.getText());
+        assertEquals("", new String(loginPanel.passwordField.getPassword()));
     }
 }

@@ -39,7 +39,7 @@ public class UserAuthApp extends JFrame {
     public void showPanel(String panelName) {
         if (panelName.equals("LOGIN")) {
             // Clear login fields when switching to Login Panel
-            LoginPanel loginPanel = (LoginPanel) getPanel();
+            LoginPanel loginPanel = (LoginPanel) getPanel(panelName);
             if (loginPanel != null) {
                 loginPanel.clearFields();
             }
@@ -47,7 +47,7 @@ public class UserAuthApp extends JFrame {
         cardLayout.show(cardPanel, panelName);
     }
 
-    public JPanel getPanel() {
+    public JPanel getPanel(String dashboard) {
         for (Component comp : cardPanel.getComponents()) {
             if (comp instanceof JPanel && comp.getName() != null && comp.getName().equals(comp.getName())) {
                 return (JPanel) comp;
