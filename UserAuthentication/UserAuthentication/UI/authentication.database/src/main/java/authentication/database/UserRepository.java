@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class UserRepository {
     private static final String URL = "jdbc:mysql://localhost:3306/account_app";
     private static final String USER = "root";
-    private static final String PASSWORD = "danguru";
+    private static final String PASSWORD = "dangur u";
 
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);

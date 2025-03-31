@@ -8,12 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="authentication.database" />
         <module name="authentication.ui" />
+        <module name="database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="database.connection" target="23" />
       <module name="Database.connection" target="23" />
-      <module name="ui" target="23" />
       <module name="UserAuthentcation" target="23" />
       <module name="UserAuthentication" target="23" />
     </bytecodeTargetLevel>
